@@ -4,12 +4,23 @@
     text-align: center
     color: #2e2e2e
     text-transform: uppercase
-    &__fz21
+    &_fz21
         font-size: 21px
         font-weight: 300
-        padding-top: 20px
+        margin-top: 20px
+        text-transform: none 
 .divider
     display: block
+    border: 1px solid $main-color
     width: 148px
     margin: 0 auto
-    padding-top: 20px
+    margin-top: 20px
+
+@media ( max-width: 576px )
+    .container
+        width: 100%
+        padding: 0 10px
+    .title
+        font-size: 22px
+        &_fz21
+            font-size: 17px
