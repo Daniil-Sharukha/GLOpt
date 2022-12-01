@@ -50,22 +50,22 @@
                 <nav>
                     <ul class="promo-list">
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Преимущества</a>
+                            <a href="#benefits" class="promo-list__link">Преимущества</a>
                         </li>
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Наша работа</a>
+                            <a href="#job" class="promo-list__link">Наша работа</a>
                         </li>
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Цены</a>
+                            <a href="#price" class="promo-list__link">Цены</a>
                         </li>
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Схема работы</a>
+                            <a href="#scheme" class="promo-list__link">Схема работы</a>
                         </li>
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Отзывы</a>
+                            <a href="#feed" class="promo-list__link">Отзывы</a>
                         </li>
                         <li class="promo-list__item">
-                            <a href="#" class="promo-list__link">Контакты</a>
+                            <a href="#contacts" class="promo-list__link">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -75,7 +75,7 @@
                         <div class="promo-contacts__text">Есть вопросы?</div>
                         <a href="tel:+79264230100" class="promo-contacts__phone">+7 (926) 423 01 00</a>
                     </div>
-                    <button class="btn promo-contacts__btn">Перезвоните мне</button>
+                    <button class="btn promo-contacts__btn" id="call" >Перезвоните мне</button>
                 </div>
 
             </header>
@@ -117,12 +117,12 @@
                 </div>
             </div>
     
-            <button class="btn promo__btn">Получить расчет</button>
+            <button class="btn promo__btn" id="call">Получить расчет</button>
         </div>
 
     </section>
 
-    <section class="benefits">
+    <section class="benefits" id="benefits">
         <div class="container">
             <div class="title">Преимущества работы с GlobalOpt</div>
         
@@ -221,7 +221,7 @@
         </div>
     </section>
 
-    <section class="job">
+    <section class="job" id="job">
         <div class="container">
             <div class="title">Наша работа - больше чем просто доставка</div>
             <div class="divider"></div>
@@ -280,7 +280,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="title">Цены на любой вариант доставки</div>
             <div class="divider"></div>
@@ -307,9 +307,9 @@
                             Морские перевозки грузов из Китая в Россию за 35 дней с прохождением таможни
                         </div>
 
-                        <div class="btn price-grid-item__btn">
+                        <button class="btn price-grid-item__btn" id="more">
                             Подробнее
-                        </div>
+                        </button>
                     </div>
                 </div>
 
@@ -331,9 +331,9 @@
                         <div class="price-grid-item__descr">
                             ЖД перевозки грузов из Китая в Россию от 2 недель с прохождением таможни
                         </div>
-                        <div class="btn price-grid-item__btn">
+                        <button class="btn price-grid-item__btn" id="more">
                             Подробнее
-                        </div>
+                        </button>
                     </div>                    
                 </div>
 
@@ -355,9 +355,9 @@
                         <div class="price-grid-item__descr">
                             Автоперевозки грузов из Китая в Россию от 2 недель с прохождением таможни
                         </div>
-                        <div class="btn price-grid-item__btn">
+                        <button class="btn price-grid-item__btn" id="more">
                             Подробнее
-                        </div>
+                        </button>
                     </div>
                 </div>
 
@@ -379,9 +379,9 @@
                         <div class="price-grid-item__descr">
                             Авиаперевозки грузов из Китая в Россию до 2 недель с прохождением таможни
                         </div>
-                        <div class="btn price-grid-item__btn">
+                        <button class="btn price-grid-item__btn" id="more">
                             Подробнее
-                        </div>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -407,7 +407,7 @@
                 </form>
 
                 <div class="consultation__btn__wrapper">
-                    <button class="btn consultation__btn">Отправить заявку</button>
+                    <button class="btn consultation__btn" id="send" >Отправить заявку</button>
                 </div>
             </div>
         </div>
@@ -426,7 +426,7 @@
         </div>
     </section>
 
-    <section class="scheme">
+    <section class="scheme" id="scheme">
         <div class="container">
             <div class="title">Схема работы с нами</div>
 
@@ -494,7 +494,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <section class="carousel" id="feed">
         <div class="container">
             <div class="title">отзывы наших клиентов</div>
             <div class="divider"></div>
@@ -543,7 +543,7 @@
         </div>
     </section>
 
-    <section class="questions">
+    <section class="questions" id="contacts">
         <div class="container">
             <div class="questions__header">
                 <div class="questions__title">Остались вопросы?</div>
@@ -560,7 +560,7 @@
                         <div class="questions__textarea">
                             <textarea name="text" id="text" placeholder="Сообщение..."></textarea>
                         </div>
-                        <button class="btn questions__btn">Отправить заявку</button>
+                        <button class="btn questions__btn" id="send">Отправить заявку</button>
                     </form>
             </div>
 
@@ -590,7 +590,7 @@
                             <div class="footer-contacts__text">Есть вопросы?</div>
                             <a href="tel:+79264230100" class="footer-contacts__phone">+7 (926) 423 01 00</a>
                         </div>
-                        <button class="btn footer-contacts__btn">Перезвоните мне</button>
+                        <button class="btn footer-contacts__btn" id="call">Перезвоните мне</button>
                     </div>
                 </div>
 
@@ -598,7 +598,7 @@
 
                 <div class="footer__bottom">
                     <div class="footer__scratch"><a href="#">© 2010 Scratch.com.ua</a></div>
-                    <div class="footer__politics"><a href="#">Политика конфидециальности</a></div>
+                    <div class="footer__politics"><a href="/policy.html">Политика конфидециальности</a></div>
                     <div class="footer__webdev">Создание сайта: <a href="#"><img src="icons/footer/stud_logo.png" alt="studio"></a>
                     </div>
                 </div>
@@ -606,6 +606,8 @@
         </div>
     </footer>
 
+
+    <script src="js/modal.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/script.js"></script>
 </body>
