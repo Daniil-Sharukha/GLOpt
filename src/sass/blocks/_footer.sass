@@ -1,0 +1,105 @@
+.footer
+    padding: 20px 0 35px
+    background-color: #25333c
+    &__top
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__logo
+        display: flex
+        align-items: center
+        a
+            margin-right: 43px
+    &__label
+        font-weight: bold
+        font-size: 16px
+        color: $sec-color
+    &-contacts
+        display: flex
+        width: 340px
+        justify-content: space-around
+        &__text
+            font-size: 14px
+            font-weight: 300
+            text-align: right
+            color: $sec-color
+        a
+            font-size: 19px
+            font-weight: bold
+            text-align: right
+            color: $sec-color
+            text-decoration: none
+    &__divider
+        max-width: 100%
+        border-top: 1px solid rgba(255, 255, 255, 0.6)
+
+        margin-top: 25px
+    &__bottom
+        margin-top: 30px
+        display: flex
+        justify-content: space-between
+    &__scratch
+        a
+            font-size: 13px
+            font-weight: 300
+            color: rgba(255, 255, 255, 0.6)
+            text-underline-offset: 5px
+    &__politics
+        text-decoration: underline
+        text-underline-offset: 3px
+        a
+            color: $main-color
+            font-size: 13px
+            font-weight: 300
+    &__webdev
+        font-size: 13px
+        font-weight: 300
+        color: rgba(255, 255, 255, 0.6)
+@media ( max-width: 992px )
+    .container
+        max-width: 720px
+    .footer
+        &__label
+            display: none
+@media ( max-width: 768px )
+    .container
+        max-width: 540px
+    .footer
+        &__top
+            justify-content: space-evenly   
+@media ( max-width: 576px )
+    .container
+        width: 100%
+        padding: 0 10px
+    .footer
+        &__top
+            flex-direction: column
+        &__logo
+            flex-direction: column
+            a
+                margin-right: 0
+        &__label
+            display: block
+            text-align: center
+            font-size: 15px
+            margin-top: 15px
+        &-contacts
+            width: 300px
+            margin-top: 15px
+            flex-direction: column
+            text-align: center
+            &__text
+                text-align: center
+            &__btn
+                margin: 0 auto
+                margin-top: 15px
+        &__bottom
+            flex-direction: column
+            align-items: center
+        &__webdev
+            margin-top: 10px
+
+
+    
+
+
