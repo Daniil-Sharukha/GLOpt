@@ -1,0 +1,62 @@
+.consultation
+    padding: 55px 0 80px
+    &__title
+        font-size: 28px
+        text-align: center
+        color: #3a3a3a
+    &__wrapper
+        position: relative
+        min-height: 166px
+        margin-top: 70px
+        border: 2px solid rgba(0, 0, 0, 0.21)
+        padding: 68px 0 53px
+    &__icon
+        width: 100px
+        height: 100px
+        border-radius: 100%
+        border: 1px solid $main-color
+        margin: 0 auto
+        &__wrapper
+            width: 120px
+            position: absolute
+            top: -45px
+            background-color: $sec-color
+            left: 50%
+            transform: translateX(-50%)
+        img
+            display: block
+            margin: 0 auto
+            padding-top: 15%
+    &__form
+        display: flex
+        justify-content: center
+        input
+            margin: 0 3px
+            padding: 17px 28px
+            width: 268px
+            height: 45px
+            border: solid 1px rgba(0, 0, 0, 0.21)
+            border-radius: 20px
+            font-size: 13px
+            font-weight: 300
+            color: #000
+    &__btn
+        width: 180px
+        margin: 0 auto
+        &__wrapper
+            position: absolute
+            width: 200px
+            left: 50%
+            transform: translateX(-50%)
+            bottom: -25px
+            background-color: $sec-color
+
+@media ( max-width: 768px )
+    .container
+        max-width: 540px
+    .consultation
+        &__form
+            flex-direction: column
+            align-items: center
+            input
+                margin: 7px 0
