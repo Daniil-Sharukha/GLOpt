@@ -1,0 +1,34 @@
+.managers
+    padding: 60px 0 75px
+    background: url(../img/bg/third_bg.jpg) center center/cover no-repeat
+    &__icon
+        display: block
+        border: 1px solid $sec-color
+        border-radius: 100%
+        width: 100px
+        height: 100px
+        margin: 0 auto
+        img
+            display: block
+            margin: 0 auto
+            margin-top: 20px
+            align-items: center
+    .title
+        color: $sec-color
+        margin-top: 20px
+        text-transform: none 
+    &__subtitle
+        max-width: 984px
+        margin: 0 auto
+        text-align: center
+        margin-top: 22px
+        font-weight: 300
+        font-size: 19px
+        color: $sec-color
+
+@media ( max-width: 768px )
+    .container
+        max-width: 540px
+    .managers
+        &__subtitle
+            font-size: 15px
