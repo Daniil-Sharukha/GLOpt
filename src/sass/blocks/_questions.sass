@@ -1,0 +1,84 @@
+.questions
+    padding: 60px 0 70px
+    background: url(../img/bg/fourth_bg.jpg) center center/cover no-repeat
+    &__header
+        margin: 0 auto
+        max-width: 896px
+        text-align: center
+        height: 68px
+        background-color: #25333c
+        color: $sec-color
+        padding-top: 15px
+    &__title
+        line-height: 15px
+        font-size: 19px
+        font-weight: bold
+        text-transform: uppercase
+    &__subtitle
+        margin-top: 5px
+        text-transform: uppercase
+        font-size: 14px
+    &__wrapper
+        margin: 0 auto
+        max-width: 896px
+    &__top
+        display: flex
+        justify-content: space-evenly
+    &__form
+        padding: 18px 39px
+        min-height: 230px
+        background-color: #ffffffb7
+        input
+            height: 45px
+            width: 32.5%
+            border-radius: 25px
+            background-color: $sec-color
+            padding: 0 27px
+            font-size: 13px
+            font-weight: 300
+            color: rgba(16, 16, 16, 0.7)
+            border: solid 1px rgba(0, 0, 0, 0.21)
+            outline: none
+    &__textarea
+        margin-top: 10px
+        max-width: 813px
+        height: 71px
+        textarea
+            padding: 10px 27px
+            width: 100%
+            height: 100%
+            resize: none
+            border-radius: 8px
+            border: solid 1px rgba(0, 0, 0, 0.21)
+            font-size: 13px
+            font-weight: 300
+            outline: none
+    &__btn
+        margin: 0 auto
+        margin-top: 23px
+@media ( max-width: 768px )
+    .container
+        max-width: 540px
+    .questions
+        &__form
+            padding: 20px 15px
+            input
+                padding: 0 10px
+        &__textarea
+            textarea
+                padding: 10px 15px
+@media ( max-width: 576px )
+    .container
+        width: 100%
+        padding: 0 10px
+    .questions
+        &__top
+            flex-direction: column
+            input
+                width: 100%
+                margin-bottom: 10px
+
+
+            
+
+
