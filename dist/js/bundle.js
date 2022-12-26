@@ -129,13 +129,13 @@ function modal() {
             }
 
             modalForm.reset();
-            modalThanks.classList.remove('show');
             setTimeout(() => {
                 modal.classList.remove('show');
+                modalThanks.classList.remove('show');
                 document.body.style.overflow = '';
             }, 3000);
         });
-        
+
     });
 
     close.forEach(btn => {
@@ -144,8 +144,6 @@ function modal() {
             document.body.style.overflow = '';
         });
     });
-
-//#more send
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (modal);
