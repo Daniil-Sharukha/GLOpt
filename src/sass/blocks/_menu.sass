@@ -45,14 +45,14 @@
         list-style-type: none
         padding-left: 35px
         padding-right: 100px
+        text-align: center
     &__link
         position: relative
         font-size: 24px
         font-weight: bold
-        text-align: left
         margin-bottom: 15px
         &::before
-            content: ''
+            //content: ''
             position: absolute
             left: -35px
             top: 10px
@@ -90,7 +90,9 @@
 @media ( max-width: 576px )
     .menu
         &__block
-            width: 320px
-            padding-left: 25px
+            width: 280px
+            padding-left: 0
         &__list
-            padding-right: 0
+            padding: 0
+        &__link
+            padding: 0

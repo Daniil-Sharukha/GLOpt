@@ -1,11 +1,9 @@
-const hamburger = document.querySelector('.hamburger'),
-      menu = document.querySelector('.menu'),
-      closeElem = document.querySelector('.menu__close');
+import carousel from './modules/carousel';
+import hamburger from './modules/hamburger';
+import modal from './modules/modal';
 
-hamburger.addEventListener('click', () => {
-    menu.classList.add('active');
-});
-
-closeElem.addEventListener('click', () => {
-    menu.classList.remove('active');
+window.addEventListener('DOMContentLoaded', function() {
+    carousel();
+    hamburger();
+    modal();
 });

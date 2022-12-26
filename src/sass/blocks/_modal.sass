@@ -1,0 +1,78 @@
+.modal
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 10
+    display: none
+    width: 100%
+    height: 100%
+    overflow: hidden
+    background-color: rgba(0, 0, 0, .5)
+    &__dialog
+        max-width: 500px
+        margin: 0 auto
+        margin-top: 30%
+    &__content
+        position: relative
+        width: 100%
+        padding: 30px 30px 20px 30px
+        background-color: #fff
+        border: 1px solid rgba(0, 0, 0, .2)
+        border-radius: 8px
+        max-height: 80vh
+        overflow-y: auto
+    &__close
+        position: absolute
+        top: 0px
+        right: 14px
+        font-size: 30px
+        color: #000
+        opacity: .5
+        font-weight: 700
+        border: none
+        background-color: transparent
+        cursor: pointer
+        scale: 1.3
+    &__title
+            display: block
+            font-size: 19px
+            margin: 0 auto
+            margin-bottom: 20px
+            max-width: 400px
+            text-align: center
+    &-data
+        &__form
+            display: flex
+            flex-direction: column
+            width: 90%
+            margin: 0 auto
+            input
+                width: 100%
+                height: 50px
+                border: 1px solid rgba(0, 0, 0, .3)
+                border-radius: 10px
+                margin-bottom: 18px
+                padding: 18px
+            button
+                margin: 0 auto
+                width: 200px
+    &-thanks
+        display: none
+@media ( max-width: 576px )
+    .modal
+        &__content
+            width: 95%
+            margin: 0 auto
+            padding: 10px
+            padding-top: 30px
+        &__close
+            top: -7px
+            right: 8px
+        &__title
+            font-size: 15px
+        &-data
+            &__form
+                input
+                    padding: 13px
+                    font-size: 15px
+
